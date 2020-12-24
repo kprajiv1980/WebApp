@@ -1,9 +1,10 @@
 package webapp;
 
+import org.junit.*;
 public class launchJenkins {
 
-	
-	public static void printname() {
+	@Test
+	public void printname() {
 		
 		String test= "avnish tomar";
 		
